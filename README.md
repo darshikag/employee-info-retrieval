@@ -70,7 +70,7 @@ JSON → Kinesis → Fanout (Masking) → SQS → Outbound Adapter → User
 
 ## Production Deployment
 
-![Deployment](Deployment.png)
+![Deployment](Deployment.jpg)
 
 ### Infrastructure
 - AWS ECS / EC2 with Auto Scaling
