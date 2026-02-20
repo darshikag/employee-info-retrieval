@@ -64,7 +64,7 @@ JSON → Kinesis → Fanout (Masking) → SQS → Outbound Adapter → User
 
 ## Sequence Diagram
 
-![Sequence](Sequence.png)
+![Sequence](Sequence.jpg)
 
 ---
 
