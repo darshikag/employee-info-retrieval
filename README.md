@@ -64,13 +64,13 @@ JSON → Kinesis → Fanout (Masking) → SQS → Outbound Adapter → User
 
 ## Sequence Diagram
 
-![Sequence](sequence.png)
+![Sequence](Sequence.png)
 
 ---
 
 ## Production Deployment
 
-![Deployment](deployment.png)
+![Deployment](Deployment.png)
 
 ### Infrastructure
 - AWS ECS / EC2 with Auto Scaling
