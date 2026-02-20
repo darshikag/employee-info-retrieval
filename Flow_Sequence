@@ -1,0 +1,18 @@
+Flow steps: 
+1. User requests OAuth token from Apigee (OKAPI)
+2. User calls main API with Employee ID + Token
+3. Apigee authenticates and routes request
+4. Employee Info Microservice receives request
+5. Microservice sends XML request to Workday
+6. Workday returns XML response
+7. Microservice:
+- Retries up to 3 times if Workday is unavailable
+- Converts XML to JSON
+8. JSON published to AWS Kinesis (encrypted via KMS)
+9. Fanout Microservice:
+- Reads event
+- Checks data classification (Unrestricted / Restricted / Confidential)
+- Masks sensitive fields
+10. Masked data sent to AWS SQS
+11. Outbound Adapter reads from SQS
+12. Response delivered back to user
