@@ -17,7 +17,7 @@ Due to organizational confidentiality and NDA restrictions, source code is not i
 
 ## High-Level Architecture
 
-![Architecture](architecture.png)
+![Architecture]([architecture.png](https://github.com/darshikag/employee-info-retrieval/blob/main/Architecture.png))
 
 ### Key Components
 
