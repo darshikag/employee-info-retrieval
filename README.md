@@ -17,7 +17,7 @@ Due to organizational confidentiality and NDA restrictions, source code is not i
 
 ## High-Level Architecture
 
-Architecture.png
+![Architecture](Architecture.png)
 
 ### Key Components
 
