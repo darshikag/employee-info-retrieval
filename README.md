@@ -17,7 +17,7 @@ Due to organizational confidentiality and NDA restrictions, source code is not i
 
 ## High-Level Architecture
 
-Architecture.png
+![Architecture](Architecture.png)
 
 ### Key Components
 
@@ -64,13 +64,13 @@ JSON → Kinesis → Fanout (Masking) → SQS → Outbound Adapter → User
 
 ## Sequence Diagram
 
-![Sequence](sequence.png)
+![Sequence](Sequence.jpg)
 
 ---
 
 ## Production Deployment
 
-![Deployment](deployment.png)
+![Deployment](Deployment.jpg)
 
 ### Infrastructure
 - AWS ECS / EC2 with Auto Scaling
